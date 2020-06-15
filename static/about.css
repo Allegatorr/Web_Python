@@ -1,0 +1,26 @@
+h1 {
+	 color : cyan; text-align: center;
+}
+body {
+	background-image: url("images/im4.jpg"); background-size: 2000px
+}
+div {
+	color : white;
+}
+p {
+	font-size: 25px; color : white;
+}
+h2 {
+	 color : cyan;
+}
+legend {
+         color : white;
+}
+h3 {
+    color : white; text-align : center;
+
+}
+
+
+
+

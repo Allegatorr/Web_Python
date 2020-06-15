@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset="utf-8">  
+		   <title>About Me</title>
+			 <link rel="stylesheet" href="static/about.css">
+      </head>
+      <body>
+           <div>
+			   <a>Главная</a>
+			   <a href="https://www.instagram.com/o.shushkov/">Контакты</a>
+			   <a></a>
+		   </div> 
+			<h1>Всем привет!!!</h1>
+			 <p>Меня зовут Олег! Я работаю и в данный момент учусь в онлайн-школе SkillFactory.<br>
+			    Я решил кардинально поменять свою жизнь и освоить новую профессию.<br>
+				У меня есть семья! Я женат и у меня есть маленькая дочка.</p>
+			 
+            <h2>Наши фото</h2>
+			 <p><img src="static/images/im1.jpg" alt="Семья" width="150" />
+			    <img src="static/images/im2.jpg" alt="Семья" width="150" />
+				<img src="static/images/im3.jpg" alt="Семья" width="150" /></p>
+			 <p>Я увлекаюсь спортом: катаюсь на лыжах, люблю футбол и просто без ума от гонок!!!<br>
+			    Увлекаюсь видео-монтажем, <a href="https://www.youtube.com/channel/UC9_XSj7eiKlus-wf4D0EH9Q?view_as=subscriber">здесь</a> можно посмотреть мои проекты.<br>
+			    Всё свое свободное время уделяю учебе и очень надеюсь на результат.</p>	
+                			 
+			 <h1>Всем, кто посетил эту страницу мира и добра!!!</h1> 
+             <h3>Ниже Вы можете задать свой вопрос. Обязательно укажите имя и e-mail адрес.</h3>
+		   <form action='/answer'autocomplete = off method='POST'>
+              <fieldset align="center">
+				  <legend>Задайте Ваш вопрос</legend>
+				  <p><label for="name">Имя <em>*</em></label><input type="text" id="name" name =‘name’></p>
+   				 <p><label for="email">E-mail</label><input type="email" id="email" name =‘email’></p>
+			  <textarea name="webapp" cols="70" rows="7">Введите текст</textarea>
+			  </fieldset>
+				<p align="center"><input name =‘message’ type="submit" value="Отправить"></p>
+			</form>
+
+      
+      </body>
+</html>
